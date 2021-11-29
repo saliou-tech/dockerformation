@@ -7,3 +7,5 @@ before_install:
   - docker build -t 1234567891993/dockerformation -f Dockerfile.dev .
 
 
+script:
+  - docker run 1234567891993/dockerformation  npm run test -- --coverage
