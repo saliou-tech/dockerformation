@@ -8,3 +8,5 @@ before_install:
 
 
 
+script:
+  - docker run 1234567891993/dockerformation  npm run test -- --coverage
